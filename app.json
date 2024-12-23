@@ -13,16 +13,45 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.movie.app"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.movie.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./src/assets/fonts/Inter_18pt-Black.ttf",
+            "./src/assets/fonts/Inter_18pt-Bold.ttf",
+            "./src/assets/fonts/Inter_18pt-ExtraBold.ttf",
+            "./src/assets/fonts/Inter_18pt-ExtraLight.ttf",
+            "./src/assets/fonts/Inter_18pt-Light.ttf",
+            "./src/assets/fonts/Inter_18pt-Medium.ttf",
+            "./src/assets/fonts/Inter_18pt-Regular.ttf",
+            "./src/assets/fonts/Inter_18pt-SemiBold.ttf",
+            "./src/assets/fonts/Inter_18pt-Thin.ttf",
+            "./src/assets/fonts/LexendDeca-Black.ttf",
+            "./src/assets/fonts/LexendDeca-Bold.ttf",
+            "./src/assets/fonts/LexendDeca-ExtraBold.ttf",
+            "./src/assets/fonts/LexendDeca-ExtraLight.ttf",
+            "./src/assets/fonts/LexendDeca-Light.ttf",
+            "./src/assets/fonts/LexendDeca-Medium.ttf",
+            "./src/assets/fonts/LexendDeca-Regular.ttf",
+            "./src/assets/fonts/LexendDeca-SemiBold.ttf",
+            "./src/assets/fonts/LexendDeca-Thin.ttf"
+          ]
+        }
+      ]
+    ]
   }
 }
